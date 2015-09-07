@@ -1,18 +1,19 @@
 <snippet>
     <content><![CDATA[
-var React = require('react');
+const React = require("react")
 
-var ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} = React.createClass({
+const ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} = React.createClass({
 
-	render: function() {
-		return (
-			${0:<div />}
-		);
-	}
+  render : function render() {
+    return (
+      ${0:<div>
+      </div>}
+    )
+  },
 
-});
+})
 
-module.exports = ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}};
+module.exports = ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}
 ]]></content>
     <tabTrigger>rcc</tabTrigger>
     <scope>source.js</scope>

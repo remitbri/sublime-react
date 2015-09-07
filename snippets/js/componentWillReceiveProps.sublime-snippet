@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-componentWillReceiveProps: function(nextProps) {
-	${1}
+componentWillReceiveProps : function componentWillReceiveProps(nextProps) {
+  ${1}
 },
 ]]></content>
     <tabTrigger>cwr</tabTrigger>
